@@ -1,0 +1,12 @@
+package week1;
+
+import java.util.Scanner;
+
+public class EIPICNIC {
+    public Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        
+    }
+
+    
+}

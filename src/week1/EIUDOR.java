@@ -20,5 +20,6 @@ public class EIUDOR {
         }
 
         System.out.println(counts);
+        sc.close();
     }
 }

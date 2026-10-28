@@ -16,7 +16,7 @@ public class DistinctNumbers {
         }
 
         List<Integer> keyList = new ArrayList<>(map.keySet());
-
+        keyList.sort((k1, k2) ->  k1.compareTo(k2));
         keyList.sort(null);
 
         for(int key : keyList){

@@ -19,7 +19,6 @@ public class EISW1 {
             minus = 0;
         } else
             for (int i = 0; i < nums.length; i++) {
-
                 min = nums[i + k - 1] - nums[i];
                 if (min < minus) {
                     minus = min;

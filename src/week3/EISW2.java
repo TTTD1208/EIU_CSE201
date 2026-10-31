@@ -10,7 +10,7 @@ public class EISW2 {
         long[] nums = new long[n];
         long[] subArray = new long[k];
         double maxAvg = 0;
-        long maxSum = -1000000;
+        long maxSum;
         long sum = 0;
         for (int i = 0; i < nums.length; i++) {
             nums[i] = sc.nextLong();
@@ -18,18 +18,11 @@ public class EISW2 {
                 subArray[i] = nums[i];
             }
         }
-
-        // for (int i = 0; i < k; i++) {
-            
-        // }
         for (int i = 0; i < subArray.length; i++) {
             sum += subArray[i];
         }
-
+        maxSum = sum;
         for (int i = 0; i < nums.length; i++) {
-            // avg = sum / k;
-            // if (avg > maxAvg)
-            //     maxAvg = avg;
             if (sum>maxSum) {
                 maxSum=sum;
             }
